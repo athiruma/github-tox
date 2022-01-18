@@ -4,7 +4,7 @@ jobs:
         build:
                 strategy:
                         matrix:
-                                os: [3.9, 3.10]
+                                os: ['3.9', '3.10']
                 
                 runs-on: ubuntu-latest
                 steps:
